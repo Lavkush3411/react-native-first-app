@@ -2,6 +2,7 @@ import { useAuth } from '@/hooks/useAuth';
 import { Redirect, Tabs } from 'expo-router';
 import React from 'react';
 import { Text } from 'react-native';
+import * as Notifications from 'expo-notifications';
 
 const _layout = () => {
   const { data: user, isPending } = useAuth();

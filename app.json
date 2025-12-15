@@ -8,6 +8,10 @@
     "scheme": "staffsyncapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "0d3f69dd-7cd7-4ce2-b8f3-279dbbe82646"
+      }},
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
